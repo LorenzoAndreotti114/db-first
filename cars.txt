@@ -1,0 +1,21 @@
+CARS
+_______________
+
+marca               -VARCHAR (25)   -   NOT NULL
+modello_auto        -VARCHAR (255)  -   NOT NULL
+targa               -VARCHAR (25)   -   NOT NULL   -    UNIQUE
+potenza_motore      -TINYINT        -   NOT NULL
+posti_sedere        -TINYINT        -   NOT NULL
+prezzo              -MEDIUMINT
+ruota_scorta        -TINYINT    -   DEFAULT(0)
+colore              -VARCHAR(255)   -   NOT NULL
+radio               -TINYINT    -   DEFAULT(1)
+anno_produzione     -TINYINT        -   NOT NULL
+peso_auto           -SMALLINT       -   NOT NULL               
+patente_richiesta   -VARCHAR (25)   -   NOT NULL
+disponibilità       -TINYINT    -   DEFAULT(1)
+sconto              -TINYINT    -   DEFAULT(0)
+prezzo_scontato     -DECIMAL(7, 2) // 99999.99  -   NOT NULL
+cambio              -VARCHAR (25)   -   NOT NULL
+pilota_automatico   -TINYINT    -   DEFAULT(0)
+
